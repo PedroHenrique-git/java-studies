@@ -20,7 +20,7 @@ public class Gerente extends Funcionario {
 	 
 	 public boolean autentica(String login, int senha) {
 		 if( this.getName() == login && this.getSenha() == senha )
-			 return this.senha == senha;
+			 return true;
 		 return false;
 	 }
 	 
