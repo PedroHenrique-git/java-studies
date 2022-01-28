@@ -8,6 +8,6 @@ public class ContabilizadorDeBonificacoes {
 	
 	public void contabilizaBonificacoes(Funcionario func) {
 		double bonificacao = func.getBonificacao();
-		this.valorTotalDeBonificacoes += bonificacao; 
+		this.valorTotalDeBonificacoes += bonificacao;
 	}
 }

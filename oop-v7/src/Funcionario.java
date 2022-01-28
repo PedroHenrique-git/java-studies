@@ -1,4 +1,3 @@
-
 abstract public class Funcionario {
 	private String name;
 	protected double salary;

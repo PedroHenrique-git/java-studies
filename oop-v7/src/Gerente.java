@@ -1,5 +1,4 @@
-
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario implements FuncionarioAutenticavel {
 	 private int senha;
 	
 	 public Gerente(String name, double salary) {
