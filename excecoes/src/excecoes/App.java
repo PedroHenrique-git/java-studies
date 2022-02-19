@@ -8,7 +8,8 @@ public class App {
 		
 		try {
 			teste();
-		} catch(ArithmeticException e) {
+		} catch(ArithmeticException | ArrayIndexOutOfBoundsException e) {
+			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
 	}
